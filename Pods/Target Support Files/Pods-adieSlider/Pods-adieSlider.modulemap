@@ -1,0 +1,6 @@
+framework module Pods_adieSlider {
+  umbrella header "Pods-adieSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

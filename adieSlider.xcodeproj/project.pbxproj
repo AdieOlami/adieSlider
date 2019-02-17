@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252965EB35FFC17E5AB5FA0F /* Pods_adieSliderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D1BA9F758F8B524EF449A8 /* Pods_adieSliderTests.framework */; };
+		7148009738C55E8C4779F086 /* Pods_adieSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE18E368A24342FC2748BB6 /* Pods_adieSlider.framework */; };
 		E767B56F220E018C001ED808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767B56E220E018C001ED808 /* AppDelegate.swift */; };
 		E767B571220E018C001ED808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767B570220E018C001ED808 /* ViewController.swift */; };
 		E767B574220E018C001ED808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E767B572220E018C001ED808 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 		E767B584220E018F001ED808 /* adieSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767B583220E018F001ED808 /* adieSliderTests.swift */; };
 		E767B58F220E018F001ED808 /* adieSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767B58E220E018F001ED808 /* adieSliderUITests.swift */; };
 		E767B59D220E01B3001ED808 /* adieSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767B59C220E01B3001ED808 /* adieSlider.swift */; };
+		E7E0BAF72219A01D006970D6 /* swiperight.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E0BAF62219A01D006970D6 /* swiperight.png */; };
+		E7E0BAFC2219A44B006970D6 /* ondismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E0BAFA2219A44B006970D6 /* ondismiss.png */; };
+		E7E0BAFD2219A44B006970D6 /* onshow.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E0BAFB2219A44B006970D6 /* onshow.png */; };
+		FDAD9583993FC739FF2C62B5 /* Pods_adieSliderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33288CC3EAFFB89AC4777B62 /* Pods_adieSliderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005664494A8DE60B0127FF37 /* Pods-adieSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adieSlider.debug.xcconfig"; path = "Target Support Files/Pods-adieSlider/Pods-adieSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		10F39144EF97B0D5AD3DE59B /* Pods-adieSliderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adieSliderUITests.release.xcconfig"; path = "Target Support Files/Pods-adieSliderUITests/Pods-adieSliderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BE18E368A24342FC2748BB6 /* Pods_adieSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adieSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F9482072FBA9937B0A6A89 /* Pods-adieSliderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adieSliderTests.release.xcconfig"; path = "Target Support Files/Pods-adieSliderTests/Pods-adieSliderTests.release.xcconfig"; sourceTree = "<group>"; };
+		33288CC3EAFFB89AC4777B62 /* Pods_adieSliderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adieSliderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC8E89EADCC4801CA4DA68 /* Pods-adieSliderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adieSliderTests.debug.xcconfig"; path = "Target Support Files/Pods-adieSliderTests/Pods-adieSliderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51613FAEA4EE11E74AAA9220 /* Pods-adieSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adieSlider.release.xcconfig"; path = "Target Support Files/Pods-adieSlider/Pods-adieSlider.release.xcconfig"; sourceTree = "<group>"; };
+		52D1BA9F758F8B524EF449A8 /* Pods_adieSliderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adieSliderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8060A86041A4E110DA8B3EFF /* Pods-adieSliderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adieSliderUITests.debug.xcconfig"; path = "Target Support Files/Pods-adieSliderUITests/Pods-adieSliderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E767B56B220E018C001ED808 /* adieSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adieSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E767B56E220E018C001ED808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E767B570220E018C001ED808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		E767B58E220E018F001ED808 /* adieSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adieSliderUITests.swift; sourceTree = "<group>"; };
 		E767B590220E018F001ED808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E767B59C220E01B3001ED808 /* adieSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adieSlider.swift; sourceTree = "<group>"; };
+		E7E0BAF62219A01D006970D6 /* swiperight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiperight.png; sourceTree = "<group>"; };
+		E7E0BAFA2219A44B006970D6 /* ondismiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ondismiss.png; sourceTree = "<group>"; };
+		E7E0BAFB2219A44B006970D6 /* onshow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onshow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7148009738C55E8C4779F086 /* Pods_adieSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252965EB35FFC17E5AB5FA0F /* Pods_adieSliderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAD9583993FC739FF2C62B5 /* Pods_adieSliderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63EB40ACF0DD75AE1EBF07AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE18E368A24342FC2748BB6 /* Pods_adieSlider.framework */,
+				52D1BA9F758F8B524EF449A8 /* Pods_adieSliderTests.framework */,
+				33288CC3EAFFB89AC4777B62 /* Pods_adieSliderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E767B562220E018C001ED808 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				E767B582220E018F001ED808 /* adieSliderTests */,
 				E767B58D220E018F001ED808 /* adieSliderUITests */,
 				E767B56C220E018C001ED808 /* Products */,
+				EA344F48F41096BE700396B3 /* Pods */,
+				63EB40ACF0DD75AE1EBF07AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +132,16 @@
 		E767B56D220E018C001ED808 /* adieSlider */ = {
 			isa = PBXGroup;
 			children = (
+				E7E0BAFA2219A44B006970D6 /* ondismiss.png */,
+				E7E0BAFB2219A44B006970D6 /* onshow.png */,
 				E767B56E220E018C001ED808 /* AppDelegate.swift */,
 				E767B570220E018C001ED808 /* ViewController.swift */,
 				E767B572220E018C001ED808 /* Main.storyboard */,
 				E767B575220E018F001ED808 /* Assets.xcassets */,
 				E767B577220E018F001ED808 /* LaunchScreen.storyboard */,
 				E767B57A220E018F001ED808 /* Info.plist */,
-				E767B59C220E01B3001ED808 /* adieSlider.swift */,
+				E7E0BAF82219A023006970D6 /* Image */,
+				E7E0BAF522199EE2006970D6 /* Slider */,
 			);
 			path = adieSlider;
 			sourceTree = "<group>";
@@ -128,6 +164,35 @@
 			path = adieSliderUITests;
 			sourceTree = "<group>";
 		};
+		E7E0BAF522199EE2006970D6 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				E767B59C220E01B3001ED808 /* adieSlider.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		E7E0BAF82219A023006970D6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E7E0BAF62219A01D006970D6 /* swiperight.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EA344F48F41096BE700396B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005664494A8DE60B0127FF37 /* Pods-adieSlider.debug.xcconfig */,
+				51613FAEA4EE11E74AAA9220 /* Pods-adieSlider.release.xcconfig */,
+				4CAC8E89EADCC4801CA4DA68 /* Pods-adieSliderTests.debug.xcconfig */,
+				22F9482072FBA9937B0A6A89 /* Pods-adieSliderTests.release.xcconfig */,
+				8060A86041A4E110DA8B3EFF /* Pods-adieSliderUITests.debug.xcconfig */,
+				10F39144EF97B0D5AD3DE59B /* Pods-adieSliderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E767B593220E018F001ED808 /* Build configuration list for PBXNativeTarget "adieSlider" */;
 			buildPhases = (
+				DF8DD831DA808680B84BD1B0 /* [CP] Check Pods Manifest.lock */,
 				E767B567220E018C001ED808 /* Sources */,
 				E767B568220E018C001ED808 /* Frameworks */,
 				E767B569220E018C001ED808 /* Resources */,
+				051991D885824B11D00D4096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E767B596220E018F001ED808 /* Build configuration list for PBXNativeTarget "adieSliderTests" */;
 			buildPhases = (
+				F5B33F06AA3A416C63130061 /* [CP] Check Pods Manifest.lock */,
 				E767B57B220E018F001ED808 /* Sources */,
 				E767B57C220E018F001ED808 /* Frameworks */,
 				E767B57D220E018F001ED808 /* Resources */,
@@ -170,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E767B599220E018F001ED808 /* Build configuration list for PBXNativeTarget "adieSliderUITests" */;
 			buildPhases = (
+				595C2DD915CECA5C972951C1 /* [CP] Check Pods Manifest.lock */,
 				E767B586220E018F001ED808 /* Sources */,
 				E767B587220E018F001ED808 /* Frameworks */,
 				E767B588220E018F001ED808 /* Resources */,
@@ -235,6 +304,9 @@
 				E767B579220E018F001ED808 /* LaunchScreen.storyboard in Resources */,
 				E767B576220E018F001ED808 /* Assets.xcassets in Resources */,
 				E767B574220E018C001ED808 /* Main.storyboard in Resources */,
+				E7E0BAFC2219A44B006970D6 /* ondismiss.png in Resources */,
+				E7E0BAF72219A01D006970D6 /* swiperight.png in Resources */,
+				E7E0BAFD2219A44B006970D6 /* onshow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +325,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051991D885824B11D00D4096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-adieSlider/Pods-adieSlider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-adieSlider/Pods-adieSlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		595C2DD915CECA5C972951C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-adieSliderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8DD831DA808680B84BD1B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-adieSlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B33F06AA3A416C63130061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-adieSliderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E767B567220E018C001ED808 /* Sources */ = {
@@ -434,16 +599,17 @@
 		};
 		E767B594220E018F001ED808 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005664494A8DE60B0127FF37 /* Pods-adieSlider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MV93X72H97;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = adieSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adieSlider.adieSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,16 +618,17 @@
 		};
 		E767B595220E018F001ED808 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51613FAEA4EE11E74AAA9220 /* Pods-adieSlider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MV93X72H97;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = adieSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adieSlider.adieSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +637,7 @@
 		};
 		E767B597220E018F001ED808 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAC8E89EADCC4801CA4DA68 /* Pods-adieSliderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +659,7 @@
 		};
 		E767B598220E018F001ED808 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F9482072FBA9937B0A6A89 /* Pods-adieSliderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +681,7 @@
 		};
 		E767B59A220E018F001ED808 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8060A86041A4E110DA8B3EFF /* Pods-adieSliderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +702,7 @@
 		};
 		E767B59B220E018F001ED808 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F39144EF97B0D5AD3DE59B /* Pods-adieSliderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

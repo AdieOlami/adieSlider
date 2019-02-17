@@ -1,0 +1,6 @@
+framework module Pods_adieSliderUITests {
+  umbrella header "Pods-adieSliderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

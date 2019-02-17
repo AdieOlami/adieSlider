@@ -1,0 +1,22 @@
+PODS:
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - PureLayout (3.1.4)
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ChameleonFramework
+    - PureLayout
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+
+PODFILE CHECKSUM: b8154163d88d5e23150593d802365fc40ebc44c1
+
+COCOAPODS: 1.6.0.beta.2
