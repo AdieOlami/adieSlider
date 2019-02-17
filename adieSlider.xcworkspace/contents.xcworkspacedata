@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ondismiss.png">
+   </FileRef>
+   <FileRef
+      location = "group:onshow.png">
+   </FileRef>
+   <FileRef
       location = "group:adieSlider.xcodeproj">
    </FileRef>
    <FileRef
