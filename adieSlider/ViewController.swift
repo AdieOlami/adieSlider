@@ -14,10 +14,7 @@ class ViewController: UIViewController {
 
     var adieSlider: AdieSliderView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    override func viewDidLoad() {super.viewDidLoad()}
     
     @IBAction func showSlider(_ sender: Any) {
         // ADD THE SLIDER VIEW
